@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".contact"></activity>
+        <activity android:name=".contact" />
         <activity android:name=".about" />
         <activity android:name=".login" />
-        <activity android:name=".spalsh"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-            >
+        <activity
+            android:name=".spalsh"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
