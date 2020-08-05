@@ -4,148 +4,212 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="115dp"
-        android:layout_height="157dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="97dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146"
-        app:srcCompat="@drawable/whatsapp_image_2020_07_31_at_6_20_44_am" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="117dp"
-        android:layout_height="156dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="97dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
+        android:id="@+id/imageView6"
+        android:layout_width="120dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59000003"
-        app:srcCompat="@drawable/whatsapp_image_2020_07_31_at_4_03_15_am" />
+        app:srcCompat="@drawable/chirag" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="118dp"
-        android:layout_height="152dp"
-        android:layout_marginEnd="26dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
+        android:id="@+id/imageView7"
+        android:layout_width="120dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867"
-        app:srcCompat="@drawable/whatsapp_image_2020_08_04_at_7_40_14_am" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/deep" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="174dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="59dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="166dp"
-        android:layout_marginBottom="530dp"
-        android:text="Deep Patadiya"
-        android:textAlignment="textStart"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="120dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/jay" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="235dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.184"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.89" />
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="158dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginEnd="108dp"
-        android:text="Chirag Rathod"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.431" />
+        <TextView
+            android:id="@+id/ctxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/person_name"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Chirag Rathod"
+            android:textColor="#E64A19"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="152dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="94dp"
-        android:text="Jay Garach"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.747" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:gravity="center_horizontal|center_vertical"
+            android:text=" crathod116@rku.ac.in"
+            android:textColor="@color/colorContact"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="180dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="469dp"
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_local_phone_24"
+            android:gravity="center_horizontal|center_vertical"
+            android:text=" (+91) 7622874338"
+            android:textColor="@color/colorContact"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_location_on_24"
+            android:gravity="center_horizontal|center_vertical"
+            android:text=" Mahuva, Gujarat, India"
+            android:textColor="@color/colorContact"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="244dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
         android:gravity="center_horizontal"
-        android:text="Email: dpatadiya039@rku.ac.in"
-        android:textAlignment="textStart"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.235"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="173dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginBottom="210dp"
-        android:gravity="center_horizontal"
-        android:text="Email :- crathod116@rku.ac.in"
-        android:textAlignment="textStart"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.27"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.048" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="167dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginBottom="28dp"
+        <TextView
+            android:id="@+id/dtxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/person_name"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Deep Patadiya"
+            android:textColor="#E64A19"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dtextView8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="dpatadiya039@rku.ac.in"
+            android:textColor="@color/colorContact"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dtextView9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_local_phone_24"
+            android:gravity="center_horizontal|center_vertical"
+            android:text=" (+91) 9558276200"
+            android:textColor="@color/colorContact"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dtextView11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_location_on_24"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Rajkot, Gujarat, India"
+            android:textColor="@color/colorContact"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="233dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
         android:gravity="center_horizontal"
-        android:text="Email :- Jgarach002@rku.ac.in"
-        android:textAlignment="textStart"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.207" />
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+
+        <TextView
+            android:id="@+id/jtxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/person_name"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Jay Garach"
+            android:textColor="#E64A19"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jtextView8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:gravity="center_horizontal|center_vertical"
+            android:text=" jgarach002@rku.ac.in"
+            android:textColor="@color/colorContact"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jtextView9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_local_phone_24"
+            android:gravity="center_horizontal|center_vertical"
+            android:text=" (+91) 9327369404"
+            android:textColor="@color/colorContact"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jtextView11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_baseline_location_on_24"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Rajkot Gujarat, India"
+            android:textColor="@color/colorContact"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
